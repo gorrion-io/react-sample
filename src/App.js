@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
+import MarkdownEditor from './MarkdownEditor';
 
 class App extends Component {
 	state = {
@@ -19,6 +20,7 @@ class App extends Component {
 					</div>
 				</section>
         <Counter />
+        <MarkdownEditor />
 			</div>
 		);
 	}
